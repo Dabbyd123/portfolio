@@ -1,0 +1,8 @@
+.backdrop {
+    height: calc(100vh - 3em);
+    width: 100vw;
+    z-index: 100;
+    top: 3em;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+}

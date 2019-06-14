@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+
+.about-me {
+    height: 100%;
+    width: 100vw;
+    background-image:
+        linear-gradient(rgba(33, 33, 33, .85),
+            rgba(33, 33, 33, .85)),
+        url('../../images/city-ConvertImage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5em 0;
+    margin-bottom: 5em
+}
+
+.intro>h4 {
+    text-align: center;
+    color: #FFFFFF
+}
+
+.about-me>h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4em;
+    text-decoration: underline var(--main-blue-color)
+}
+
+
+.section-bg {
+    line-height: 3em;
+    color: #FFFFFF;
+    background-color: var(--light-bg-color);
+    border: 1px solid var(--dark-bg-color);
+    border-radius: 5%;
+    padding: 1.5em;
+    width: 97vw;
+    height: fit-content;
+    padding-right: 1em
+}
+
+.p-text {
+    width: fit-content
+}
+
+.linksBtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.linksBtn>a {
+    color: var(--main-blue-color);
+    font-size: 1.1em;
+    text-decoration: underline
+}
+
+.linksBtn>a:hover {
+    color: var(--light-blue-color);
+    cursor: pointer
+}
+
+.intro-span {
+    font-size: 2em;
+    color: var(--main-blue-color);
+    font-family: 'Exo', sans-serif;
+}
+
+img {
+    height: 15em;
+    width: 13em;
+    border-radius: 5%;
+    float: left;
+    margin-right: 1em;
+    margin-top: 1em
+}
+
+.professional {
+    grid-row: 2;
+}
+
+div>h3 {
+    color: var(--main-blue-color);
+    font-size: 1.5em;
+    font-family: 'Exo', sans-serif;
+}
+
+.p-text {
+    color: #FFFFFF;
+    font-size: 1.2em
+}
+
+.dots {
+    color: var(--accent-color)
+}
+
+.developer {
+    grid-row: 3;
+}
+
+div.lists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    border-bottom: 1px solid var(--main-bg-color);
+}
+
+.languages {
+    grid-column: 1/2;
+}
+
+h5.list-header {
+    font-size: 1.2em;
+    color: var(--accent-color);
+    margin-bottom: 0
+}
+
+.libraries {
+    grid-column: 2/3
+}
+
+
+@media only screen and (max-width : 960px) {
+    .about-me {
+        height: 100%;
+        width: 100vw;
+        overflow-x: hidden
+    }
+
+    img {
+        height: 12em;
+        width: 10em;
+        border-radius: 5%;
+        float: left;
+        margin-right: 1em;
+        margin-top: 1em
+    }
+
+    .intro-span {
+        font-size: 1.5em;
+        color: var(--main-blue-color);
+        font-family: 'Exo', sans-serif;
+    }
+
+    .section-bg {
+        padding: 1.5em;
+        width: 90vw;
+        border-radius: 0
+    }
+}

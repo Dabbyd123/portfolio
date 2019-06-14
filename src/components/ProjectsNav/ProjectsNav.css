@@ -1,0 +1,41 @@
+nav.projectsNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2em;
+    width: 100%;
+    background-color: var(--light-bgNav-color);
+    color: #ffffff;
+    transition: .25s;
+    margin-top: 0
+}
+
+.projectsBtn {
+    height: 100%;
+    width: 10em;
+    background: transparent;
+    color: var(--main-blue-color);
+    outline: none;
+    font-size: 100%;
+    border-radius: 20%
+}
+
+.projectsBtn:hover {
+    cursor: pointer;
+}
+
+.topScrollBtn {
+    background-color: #ffffff;
+    color: var(--dark-bg-color);
+    border-radius: 20%
+}
+
+@media only screen and (max-width : 960px) {
+    .projectsBtn {
+        width: 8em;
+        font-size: 12px
+    }
+}
