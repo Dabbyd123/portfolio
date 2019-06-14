@@ -14,11 +14,9 @@
 }
 
 .about-me-container {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 5em 0;
-    margin-bottom: 5em
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
 }
 
 .intro>h4 {
@@ -33,6 +31,9 @@
     text-decoration: underline var(--main-blue-color)
 }
 
+div.about-me-container>.section-bg {
+    height: fit-content;
+}
 
 .section-bg {
     line-height: 3em;
@@ -41,13 +42,13 @@
     border: 1px solid var(--dark-bg-color);
     border-radius: 5%;
     padding: 1.5em;
-    width: 97vw;
-    height: fit-content;
-    padding-right: 1em
+    height: 100%;
+    padding-right: 1em;
+    margin-bottom: 15em;
 }
 
 .p-text {
-    width: fit-content
+    padding-right: 1em
 }
 
 .linksBtn {
@@ -81,9 +82,6 @@ img {
     margin-top: 1em
 }
 
-.professional {
-    grid-row: 2;
-}
 
 div>h3 {
     color: var(--main-blue-color);
@@ -98,10 +96,6 @@ div>h3 {
 
 .dots {
     color: var(--accent-color)
-}
-
-.developer {
-    grid-row: 3;
 }
 
 div.lists {
