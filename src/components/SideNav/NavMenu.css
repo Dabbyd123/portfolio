@@ -1,7 +1,7 @@
 .nav-menu {
     background: var(--light-bg-color);
     width: 20em;
-    height: calc(100vh - 5em);
+    height: calc(100vh - 15em);
     padding: 1em;
     z-index: 200;
     position: fixed;

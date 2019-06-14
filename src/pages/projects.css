@@ -237,11 +237,12 @@
         .projects {
             font-size: 12px;
             width: 100vw;
-            height: 100%
+            height: 100%;
         }
 
         .projects-container {
             overflow-y: scroll;
+            scroll-behavior: smooth;
             overflow-x: hidden;
             gap: 3em
         }
