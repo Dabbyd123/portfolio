@@ -68,7 +68,7 @@ a:link {
     .nav-menu {
         width: 60vw;
         justify-content: space-around;
-        height: calc(100vh - 13em)
+        height: calc(100vh - 12em)
     }
 
     .nav-menu-bubble {

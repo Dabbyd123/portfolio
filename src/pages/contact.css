@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: .5fr 1fr 1.5fr;
-    height: calc(100vh - 3em)
+    height: calc(100vh - 3em);
 }
 
 .h1-container.contact-header {
@@ -39,7 +39,6 @@ hr {
     grid-row: 3;
     display: flex;
     justify-content: space-around;
-    margin-top: 3em
 }
 
 .icon {
@@ -66,4 +65,15 @@ svg#phone {
 
 .phoneNum {
     font-size: .7em
+}
+
+@media only screen and (max-width: 576px) {
+    .contact {
+        font-size: 12px
+    }
+
+    .contact-p {
+        margin-bottom: 5em
+    }
+
 }
