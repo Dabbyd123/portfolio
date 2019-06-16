@@ -9,9 +9,10 @@ const AboutMe = () => {
     return (
         <div className="about-me">
             <NavBar />
-            <h1>About Me</h1>
-
             <div className="about-me-container">
+                <div className="h1-container">
+                    <h1>About Me</h1>
+                </div>
                 <div className="section-bg intro">
                     <img src={me} alt="" />
                     <p className="p-text"><span className="intro-span">Hi! my name is David Brocker </span> and I am a web developer from New Braunfels, Tx.
@@ -55,7 +56,7 @@ const AboutMe = () => {
                     </h3>
                     <div className="lists">
                         <div className="languages">
-                            <h5 className="list-header">Languages/Frameworks</h5>
+                            <h5 className="list-header">Languages /<br />Frameworks</h5>
                             <ul className="language-ul">
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -64,7 +65,7 @@ const AboutMe = () => {
                             </ul>
                         </div>
                         <div className="libraries">
-                            <h5 className="list-header">APIs/Libraries</h5>
+                            <h5 className="list-header">APIs /<br />Libraries</h5>
                             <ul className="libraries-ul">
                                 <li>React Hooks</li>
                                 <li>React Router</li>

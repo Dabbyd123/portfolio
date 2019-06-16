@@ -24,11 +24,17 @@
     color: #FFFFFF
 }
 
-.about-me>h1 {
-    color: #FFFFFF;
-    text-align: center;
+.h1-container {
+    justify-self: center
+}
+
+.h1-container>h1 {
+    background-image: -webkit-gradient(linear, 0% 0%, 75% 100%, from(#FFFFFF), to(var(--accent-color)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 4em;
-    text-decoration: underline var(--main-blue-color)
+    border-bottom: 2px solid var(--main-blue-color);
+    width: fit-content
 }
 
 div.about-me-container>.section-bg {
@@ -121,7 +127,7 @@ h5.list-header {
 }
 
 
-@media only screen and (max-width : 960px) {
+@media only screen and (max-width : 576px) {
     .about-me {
         height: 100%;
         width: 100vw;
@@ -147,5 +153,9 @@ h5.list-header {
         padding: 1.5em;
         width: 90vw;
         border-radius: 0
+    }
+
+    h5.list-header {
+        font-size: 1em
     }
 }

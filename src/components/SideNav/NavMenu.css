@@ -1,7 +1,7 @@
 .nav-menu {
     background: var(--light-bg-color);
     width: 20em;
-    height: calc(100vh - 10em);
+    height: calc(100vh - 5em);
     padding: 1em;
     z-index: 200;
     position: fixed;
@@ -63,12 +63,12 @@ a:link {
 }
 
 
-@media only screen and (max-width : 960px) {
+@media only screen and (max-width : 576px) {
 
     .nav-menu {
         width: 60vw;
         justify-content: space-around;
-
+        height: calc(100vh - 13em)
     }
 
     .nav-menu-bubble {

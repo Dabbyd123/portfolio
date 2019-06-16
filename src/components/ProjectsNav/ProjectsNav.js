@@ -15,7 +15,7 @@ const ProjectsNav = () => {
             <Link to="mars-rovers" spy={false} smooth={true} offset={0} duration={700}>
                 <button className="projectsBtn">Mars-Rovers</button>
             </Link>
-            <button className="topScrollBtn projectsBtn" type="button" onClick={scroll.scrollToTop}>Back to Top</button>
+            <button className="topScrollBtn projectsBtn" type="button" onClick={scroll.scrollToTop}>Top</button>
 
         </nav>
     )

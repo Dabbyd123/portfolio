@@ -8,8 +8,10 @@ const Contact = () => {
     return (
         <div className="contact">
             <NavBar />
-            <div className="contact-container">
+            <div className="h1-container">
                 <h1>Contact</h1>
+            </div>
+            <div className="contact-container">
                 <p className="contact-p">
                     <hr />
                     If you have any questions or would like to reach me, please don't hesitate to contact me and I will get back with you as soon as possible.  Thanks for checking out my website!

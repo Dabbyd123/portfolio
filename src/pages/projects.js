@@ -25,9 +25,11 @@ const Projects = () => {
     return (
         <div className="projects">
             <NavBar />
-            {scrolled ? <ProjectsNav /> : null}
             <div className="projects-container">
-                <h1>Projects</h1>
+                <div className="h1-container project-header">
+                    <h1>Projects</h1>
+                </div>
+                {scrolled ? <ProjectsNav /> : null}
                 <div className="p">
                     <hr />
                     Over the past couple of years I have learned a lot, but I know I have only scratched the surface of the seemingly endless ocean of information that is out there. These are a few projects that exemplify my journey so far.

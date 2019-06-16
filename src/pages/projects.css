@@ -1,34 +1,35 @@
     .projects {
-        height: 100%;
+        height: 100vh;
         width: 100vw;
     }
 
 
     .projects-container {
-        height: calc(100vh - 3em);
-        width: 100vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: .5fr 1fr 1.5fr;
         color: #FFFFFF;
+        height: calc(100vh - 3em);
+    }
+
+    .h1-container.project-header {
+        grid-row: 1;
+        grid-column: 2/3;
+        display: block;
+        margin-bottom: 0;
+        padding-bottom: 0
     }
 
 
-    .projects-container>h1 {
-        grid-row: 1/2;
-        grid-column: 2;
+    .h1-container.project-header>h1 {
         font-size: 5em;
-        justify-self: center;
-        align-self: center;
         margin-bottom: 0;
-        margin-top: 0;
+        margin-top: .3em;
         padding: 0;
-        padding-top: 0;
-        text-decoration: underline var(--main-blue-color)
     }
 
     .projects-container>.p {
-        grid-row: 2/3;
+        grid-row: 2;
         grid-column: 1/4;
         justify-self: center;
         align-self: center;
@@ -37,7 +38,7 @@
         padding: 1em;
         border-radius: 10%;
         width: 95vw;
-        margin-bottom: 0;
+        margin: 0;
         line-height: 1.7em;
         font-size: 1.2em;
     }
@@ -46,7 +47,7 @@
         width: 20em;
         height: 25em;
         background: linear-gradient(var(--light-bg-color), var(--dark-bg-color));
-        grid-row: 4;
+        grid-row: 3;
         grid-column: 1/4;
         justify-content: space-between;
         justify-self: center;
@@ -136,33 +137,44 @@
 
 
     @media only screen and (max-width : 1500px) {
+
         .projects {
-            height: 100%;
-            width: 100vw;
+            height: 100vh;
+            width: 100vw
         }
 
-        .projects-container>h1 {
+        .projects-container {
+            height: calc(100vh - 3em)
+        }
+
+        .h1-container.project-header>h1 {
             font-size: 4em;
         }
 
+
         .projects-container>.p {
+            grid-row: 2;
             font-size: 1em;
-            width: 98vw;
+            width: 100vw;
             text-align: center;
             align-content: center;
             justify-content: center;
-            line-height: 1.5em;
+            line-height: 1.2em;
+            padding-left: 1em;
+            padding-right: 1em;
+            padding-top: 0;
+            padding-bottom: 0
         }
 
         .project-card {
             width: 18em;
-            height: 18em
+            height: 18em;
+            grid-row: 3;
         }
 
         .project-card>h2 {
             border-bottom: 1px solid var(--light-bg-color);
             font-size: 1.3em;
-            margin-top: .5em
         }
 
         .project-image-todo {
@@ -191,10 +203,15 @@
     }
 
     @media only screen and (max-width : 992px) {
+        .projects {
+            -webkit-overflow-scrolling: touch;
+            height: 100%
+        }
+
         .projects-container {
-            gap: 2em;
             overflow-x: hidden;
             overflow-y: scroll;
+            gap: 3em
         }
 
         .projects-container>.p {
@@ -227,7 +244,6 @@
             grid-column: 1/4;
             grid-row: 5;
             justify-content: center;
-            margin-bottom: 2em;
         }
     }
 
@@ -238,13 +254,12 @@
             font-size: 12px;
             width: 100vw;
             height: 100%;
+            -webkit-overflow-scrolling: touch;
         }
 
         .projects-container {
             overflow-y: scroll;
-            scroll-behavior: smooth;
             overflow-x: hidden;
-            gap: 3em
         }
 
         .projects-container>.p {
@@ -253,10 +268,6 @@
             width: 95vw
         }
 
-        .projects-container>h1 {
-            font-size: 3.5em;
-            margin-top: .5em;
-        }
 
         .project-card {
             width: 100vw;
