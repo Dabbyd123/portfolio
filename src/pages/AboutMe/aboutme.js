@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div className="about-me">
             <NavBar />
             <div className="about-me-container">
-                <div className="h1-container">
+                <div className="h1-container about-header">
                     <h1>About Me</h1>
                 </div>
                 <div className="section-bg intro">
