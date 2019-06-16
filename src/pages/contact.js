@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="contact">
             <NavBar />
             <div className="contact-container">
-                <div className="h1-container">
+                <div className="h1-container contact-header">
                     <h1>Contact</h1>
                 </div>
                 <p className="contact-p">
