@@ -67,11 +67,11 @@ const Projects = () => {
             </div>
 
             <section name="todoList">
-                <iframe title="todo-list" src="http://dabbyd123.github.io/todoList" frameBorder="0" width="100%" height="100%">
+                <iframe title="todo-list" src="https://dabbyd123.github.io/todoList" frameBorder="0" width="100%" height="100%">
                 </iframe>
             </section>
             <section name="robofriends">
-                <iframe title="robofriends" src="http://dabbyd123.github.io/Robofriends" frameBorder="0" width="100%" height="100%">
+                <iframe title="robofriends" src="https://awesome-heyrovsky-6fb7f3.netlify.com" frameBorder="0" width="100%" height="100%">
                 </iframe>
             </section>
             <section name="mars-rovers">
