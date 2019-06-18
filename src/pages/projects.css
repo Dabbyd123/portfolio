@@ -209,6 +209,9 @@
         }
 
         .projects-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
             overflow-x: hidden;
             overflow-y: scroll;
             -webkit-overflow-scrolling: touch;
@@ -229,19 +232,19 @@
             width: 30em;
         }
 
-        .todo {
-            grid-column: 1/4;
-            grid-row: 5;
-            justify-content: center;
-        }
-
-        .robofriends {
+        .project-card.todo {
             grid-column: 1/4;
             grid-row: 4;
             justify-content: center;
         }
 
-        .mars {
+        .project-card.robofriends {
+            grid-column: 1/4;
+            grid-row: 5;
+            justify-content: center;
+        }
+
+        .project-card.mars {
             grid-column: 1/4;
             grid-row: 3;
             justify-content: center;
@@ -254,7 +257,6 @@
         .projects {
             font-size: 12px;
             width: 100vw;
-            height: 100vh;
             -webkit-overflow-scrolling: touch;
         }
 
@@ -262,6 +264,9 @@
             overflow-y: scroll;
             -webkit-overflow-scrolling: touch;
             overflow-x: hidden;
+            gap: 2em;
+            height: 100%;
+            margin-bottom: 3em
         }
 
         .projects-container>.p {
@@ -283,32 +288,35 @@
 
         .project-image-todo {
             width: 100vw;
-            height: 11em;
+            height: 10em;
         }
 
         .project-image-robofriends {
             width: 100vw;
-            height: 11em;
+            height: 10em;
         }
 
         .project-image-mars {
             width: 100vw;
-            height: 11em;
+            height: 10em;
         }
 
-        .todo {
+        .project-card.todo {
+            grid-column: 1/4;
+            grid-row: 4;
+            justify-content: center;
+        }
+
+        .project-card.robofriends {
+            grid-column: 1/4;
             grid-row: 5;
             justify-content: center;
         }
 
-        .robofriends {
-            grid-row: 6;
+        .project-card.mars {
+            grid-column: 1/4;
+            grid-row: 3;
             justify-content: center;
-        }
-
-        .mars {
-            grid-row: 4;
-            justify-content: center
         }
 
         section.robofriends-container {

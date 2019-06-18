@@ -46,16 +46,6 @@ const Projects = () => {
                     </div>
                     <p>This is my most recent project using React.js. I used the NASA Mars Rovers API as my data source.</p>
                 </div>
-
-                <div className="project-card robofriends">
-                    <h2>Robofriends</h2>
-                    <div className="thumbnail-container">
-                        <Link to="robofriends" spy={false} smooth={true} offset={0} duration={700}>
-                            <div className="project-image-robofriends"></div>
-                        </Link>
-                    </div>
-                    <p>This is my first project using React.js</p>
-                </div>
                 <div className="project-card todo">
                     <h2>Todo List</h2>
                     <div className="thumbnail-container">
@@ -65,18 +55,27 @@ const Projects = () => {
                     </div>
                     <p>This is my first actual project I ever did using Javascript. A simple Todo list.</p>
                 </div>
+                <div className="project-card robofriends">
+                    <h2>Robofriends</h2>
+                    <div className="thumbnail-container">
+                        <Link to="robofriends" spy={false} smooth={true} offset={0} duration={700}>
+                            <div className="project-image-robofriends"></div>
+                        </Link>
+                    </div>
+                    <p>This is my first project using React.js</p>
+                </div>
             </div>
 
             <section name="mars-rovers">
                 <iframe title="mars-rovers" src="https://confident-goldwasser-56f9df.netlify.com/" frameBorder="0" width="100%" height="100%">
                 </iframe>
             </section>
-            <section name="robofriends" className="robofriends-container">
-                <iframe title="robofriends" src="https://dabbyd123.github.io/Robofriends" frameBorder="0" width="100%" height="100%">
-                </iframe>
-            </section>
             <section name="todoList">
                 <iframe title="todo-list" src="https://dabbyd123.github.io/todoList" frameBorder="0" width="100%" height="100%">
+                </iframe>
+            </section>
+            <section name="robofriends" className="robofriends-container">
+                <iframe title="robofriends" src="https://dabbyd123.github.io/Robofriends" frameBorder="0" width="100%" height="100%">
                 </iframe>
             </section>
         </div >
