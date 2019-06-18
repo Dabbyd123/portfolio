@@ -70,8 +70,8 @@ body {
 
 .nav-bubble {
     grid-template-areas: inherit;
-    width: 12em;
-    height: 12em;
+    width: 11em;
+    height: 11em;
     border-radius: 50%;
     border: none;
     text-align: center;
