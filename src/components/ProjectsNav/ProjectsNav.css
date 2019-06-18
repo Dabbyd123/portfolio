@@ -10,7 +10,9 @@ nav.projectsNav {
     background-color: var(--light-bgNav-color);
     color: #ffffff;
     transition: .25s;
-    margin-top: 0
+    margin-top: 0;
+    border-bottom: 1px solid var(--dark-bg-color);
+    z-index: 5
 }
 
 .projectsBtn {
