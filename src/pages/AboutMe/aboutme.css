@@ -16,8 +16,8 @@
 .about-me-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 5em;
 }
+
 
 .intro>h4 {
     text-align: center;
@@ -54,9 +54,9 @@ div.about-me-container>.section-bg {
     border: 1px solid var(--dark-bg-color);
     border-radius: 5%;
     padding: 1.5em;
-    height: 100%;
+    height: 100vh;
     padding-right: 1em;
-    margin-bottom: 15em;
+    margin-bottom: 25em;
 }
 
 .p-text {
@@ -132,6 +132,7 @@ h5.list-header {
     grid-column: 2/3
 }
 
+@media only screen and (min-width : 1500px) {}
 
 @media only screen and (max-width : 576px) {
     .about-me {

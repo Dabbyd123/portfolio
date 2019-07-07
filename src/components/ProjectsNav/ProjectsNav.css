@@ -5,7 +5,7 @@ nav.projectsNav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 2em;
+    height: 2.5em;
     width: 100%;
     background-color: var(--light-bgNav-color);
     color: #ffffff;
@@ -22,7 +22,7 @@ nav.projectsNav {
     color: var(--main-blue-color);
     outline: none;
     font-size: 100%;
-    border-radius: 20%
+    border-left: 1px solid var(--dark-bg-color)
 }
 
 .projectsBtn:hover {
@@ -32,7 +32,7 @@ nav.projectsNav {
 .topScrollBtn {
     background-color: #ffffff;
     color: var(--dark-bg-color);
-    border-radius: 20%
+    border-left: 1px solid var(--dark-bg-color)
 }
 
 @media only screen and (max-width : 960px) {

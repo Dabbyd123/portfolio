@@ -7,10 +7,10 @@ const ProjectsNav = () => {
     return (
         <nav className="projectsNav">
             <Link to="mars-rovers" spy={false} smooth={true} offset={0} duration={500}>
-                <button className="projectsBtn">Mars-Rovers</button>
+                <button className="projectsBtn">Mars Rovers</button>
             </Link>
             <Link to="todoList" spy={false} smooth={true} offset={0} duration={500}>
-                <button className="projectsBtn">ToDo List</button>
+                <button className="projectsBtn">Todo List</button>
             </Link>
             <Link to="robofriends" spy={false} smooth={true} offset={0} duration={500}>
                 <button className="projectsBtn">Robofriends</button>

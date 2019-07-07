@@ -79,6 +79,7 @@ const AboutMe = () => {
                         I started off by learning basic HTML and CSS and soon after that I started dabbling in Javascript.  After learning the basics of vanilla js and a little jQuery, I began using react and have been using it ever since. I have mainly been creating simple projects for myself, so I have only really focused on front-end developement but I am very interested
                         in server side as well, especially node.js.  To get a better idea about me as a developer please check out my projects page and my Github.
                     </p>
+                    <button className="topScrollBtn aboutMeBtn" type="button" onClick={scroll.scrollToTop}>Top</button>
                 </div>
             </div>
         </div>
