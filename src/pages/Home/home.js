@@ -1,6 +1,6 @@
 import React from 'react';
 import "./home.css";
-import NavBubbles from '../components/NavBubbles';
+import NavBubbles from '../../components/NavBubbles';
 
 const Home = () => {
     return (

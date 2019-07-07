@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/Toolbar/NavBar';
+import NavBar from '../../components/Toolbar/NavBar';
 import { FaGithub, FaGoogle, FaPhoneSquare } from 'react-icons/fa';
 import './contact.css';
 
