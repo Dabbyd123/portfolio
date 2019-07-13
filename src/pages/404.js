@@ -3,7 +3,9 @@ import React from 'react';
 const PageNotFound = () => {
 
     const styleSheet = {
-        "color": "#FFFFFF"
+        "color": "#FFFFFF",
+        "height": "100vh",
+        "width": "100vh"
     };
 
     return (

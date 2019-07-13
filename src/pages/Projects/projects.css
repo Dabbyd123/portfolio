@@ -103,7 +103,7 @@
     }
 
     .project-image-todo {
-        background-image: url('../images/todoList.jpeg');
+        background-image: url('../../images/todoList.jpeg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -112,7 +112,7 @@
     }
 
     .project-image-robofriends {
-        background-image: url('../images/robofriends.jpg');
+        background-image: url('../../images/robofriends.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -121,7 +121,7 @@
     }
 
     .project-image-mars {
-        background-image: url('../images/mars-rovers.jpg');
+        background-image: url('../../images/mars-rovers.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;

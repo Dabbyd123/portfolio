@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 //Pages
-import Home from './pages/home';
-import Projects from './pages/projects';
+import Home from './pages/Home/home';
+import Projects from './pages/Projects/projects';
 import AboutMe from './pages/AboutMe/aboutme';
-import Contact from './pages/contact';
+import Contact from './pages/Contact/contact';
 import PageNotFound from './pages/404';
 
 const App = () => {
