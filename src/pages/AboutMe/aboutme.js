@@ -55,7 +55,7 @@ const AboutMe = () => {
                         <Link to="developer" spy={false} smooth={true} offset={0} duration={700}>
                             As a Developer<span className="dots">...</span>
                         </Link>
-                        <Link spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>To Top<i className="arrow"></i></Link>
+                        <Link className="topButton" spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>To Top<i className="arrow"></i></Link>
                     </div>
                 </div>
 

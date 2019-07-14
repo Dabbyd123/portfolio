@@ -209,4 +209,10 @@ h5.list-header {
     h5.list-header {
         font-size: 1em
     }
+
+    .linksBtn {
+        display: flex;
+        font-size: 1em;
+        flex-wrap: wrap
+    }
 }
