@@ -55,6 +55,7 @@ div.about-me-container>.section-bg {
     border: 1px solid var(--dark-bg-color);
     border-radius: 5%;
     padding: 1.5em;
+    padding-bottom: 3em;
     height: 100vh;
     padding-right: 1em;
     margin-bottom: 25em;
@@ -71,13 +72,23 @@ div.about-me-container>.section-bg {
 
 .linksBtn>a {
     color: var(--main-blue-color);
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-decoration: underline
 }
 
 .linksBtn>a:hover {
     color: var(--light-blue-color);
     cursor: pointer
+}
+
+.arrow {
+    border: solid var(--accent-color);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
 
 .intro-span {
@@ -119,18 +130,53 @@ div.lists {
     border-bottom: 1px solid var(--main-bg-color);
 }
 
-.languages {
+.core-skills {
     grid-column: 1/2;
 }
 
 h5.list-header {
-    font-size: 1.2em;
+    font-size: 1.5em;
     color: var(--accent-color);
     margin-bottom: 0
 }
 
 .libraries {
     grid-column: 2/3
+}
+
+#developer {
+    margin-bottom: 1em
+}
+
+@media only screen and (min-width : 1500px) {
+    .p-text {
+        font-size: 1.5em;
+        line-height: 3em;
+    }
+
+    .linksBtn>a {
+        color: var(--main-blue-color);
+        font-size: 1.5em;
+        text-decoration: underline
+    }
+
+    div>h3 {
+        color: var(--main-blue-color);
+        font-size: 1.7em;
+        font-family: 'Exo', sans-serif;
+    }
+
+    .developer-ul {
+        font-size: 1.2em
+    }
+
+    .h1-container>h1 {
+        font-size: 5em;
+    }
+
+    .h1-container {
+        margin-bottom: 1em
+    }
 }
 
 

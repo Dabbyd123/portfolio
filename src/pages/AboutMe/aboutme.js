@@ -48,29 +48,41 @@ const AboutMe = () => {
                         needed for the patients that will be coming in that day. Working in a hospital can be very unpredictable.  There is no telling when we will get busy, so I always have to be ready.  This has lead me to develop strong organizational skills so that I am able to keep the same processes
                         whether we have two patients coming in or twenty.
                     </p>
+                    <div className="linksBtn">
+                        <Link to="professional" spy={false} smooth={true} offset={0} duration={700}>
+                            As a Professional<span className="dots">...</span>
+                        </Link>
+                        <Link to="developer" spy={false} smooth={true} offset={0} duration={700}>
+                            As a Developer<span className="dots">...</span>
+                        </Link>
+                        <Link spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>To Top<i className="arrow"></i></Link>
+                    </div>
                 </div>
 
-                <div name="developer" className="developer section-bg">
+                <div name="developer" id="developer" className="developer section-bg">
                     <h3>
                         <span className="dots">...</span> As a Developer
                     </h3>
                     <div className="lists">
-                        <div className="languages">
-                            <h5 className="list-header">Languages /<br />Frameworks</h5>
-                            <ul className="language-ul">
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Vanilla Javascript</li>
+                        <div className="core-skills">
+                            <h5 className="list-header">Core Skills</h5>
+                            <ul className="developer-ul core-ul">
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Vanila Javascript</li>
                                 <li>React.js</li>
+                                <li>Responsive Design</li>
                             </ul>
                         </div>
                         <div className="libraries">
-                            <h5 className="list-header">APIs /<br />Libraries</h5>
-                            <ul className="libraries-ul">
+                            <h5 className="list-header">Libraries</h5>
+                            <ul className="developer-ul libraries-ul">
                                 <li>React Hooks</li>
                                 <li>React Router</li>
-                                <li>jQuery</li>
+                                <li>JQuery</li>
                                 <li>Bootstrap</li>
+                                <li>MD Bootstrap</li>
+                                <li>Tacheyons</li>
                             </ul>
                         </div>
                     </div>
@@ -79,7 +91,15 @@ const AboutMe = () => {
                         I started off by learning basic HTML and CSS and soon after that I started dabbling in Javascript.  After learning the basics of vanilla js and a little jQuery, I began using react and have been using it ever since. I have mainly been creating simple projects for myself, so I have only really focused on front-end developement but I am very interested
                         in server side as well, especially node.js.  To get a better idea about me as a developer please check out my projects page and my Github.
                     </p>
-                    <button className="topScrollBtn aboutMeBtn" type="button" onClick={scroll.scrollToTop}>Top</button>
+                    <div className="linksBtn">
+                        <Link to="professional" spy={false} smooth={true} offset={0} duration={700}>
+                            As a Professional<span className="dots">...</span>
+                        </Link>
+                        <Link to="developer" spy={false} smooth={true} offset={0} duration={700}>
+                            As a Developer<span className="dots">...</span>
+                        </Link>
+                        <Link spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>To Top<i className="arrow"></i></Link>
+                    </div>
                 </div>
             </div>
         </div>
