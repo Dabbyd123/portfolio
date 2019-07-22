@@ -1,8 +1,6 @@
 .contact {
     height: 100%;
     width: 100vw;
-    overflow-y: scroll;
-
 }
 
 .contact-container {
@@ -71,24 +69,15 @@ svg#phone {
 
 @media only screen and (max-width: 576px) {
 
-    .contact {
-        height: 100%;
-    }
-
-    .contact-container {
-        overflow-y: scroll;
-        -webkit-overflow-scrolling: touch;
-    }
-
     .icon {
-        width: 2em;
-        height: 2em;
+        width: 3em;
+        height: 3em;
         color: #FFFFFF;
         text-align: center
     }
 
     .contact-p {
-        margin-bottom: 5em
+        margin-bottom: 2em
     }
 
 }
