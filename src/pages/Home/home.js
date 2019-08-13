@@ -7,7 +7,7 @@ const Home = () => {
         <div className="home">
             <div className="header">
                 <h1 className="main-header">David <span className="last-name">Brocker</span></h1>
-                <h6 className="sub-header">Front End Web Developer.<span> Designer.</span> Ninja.</h6>
+                <h6 className="sub-header">Web Developer.<span> Musician.</span> Ninja.</h6>
             </div>
             <NavBubbles />
         </div>
