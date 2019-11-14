@@ -136,11 +136,11 @@ a:link {
 @media only screen and (max-width : 576px) {
 
     .main-header {
-        font-size: 4em
+        font-size: 3.5em
     }
 
     .header {
-        margin-top: 1.5em
+        margin-top: 1em
     }
 
     .bubbles {
@@ -154,8 +154,8 @@ a:link {
     }
 
     .nav-bubble {
-        width: 8em;
-        height: 8em;
+        width: 8.2em;
+        height: 8.2em;
         border-radius: 50%;
         display: flex;
         justify-content: center;
