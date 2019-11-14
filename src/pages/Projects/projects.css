@@ -185,15 +185,6 @@
             gap: 3em
         }
 
-        .projects-container>.p {
-            font-size: 1em;
-            text-align: center;
-            width: 95vw;
-            align-content: center;
-            justify-content: center;
-            line-height: 1.5em;
-        }
-
         .project-card {
             height: 23em;
             width: 30em;
@@ -234,6 +225,11 @@
             height: 100%;
             width: 100vw;
             margin-bottom: 3em
+        }
+
+        .h1-container.project-header>h1 {
+            font-size: 4.5em;
+            margin-top: .75em;
         }
 
         .project-card {
