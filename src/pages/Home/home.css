@@ -140,7 +140,7 @@ a:link {
     }
 
     .header {
-        margin-top: 1.1em
+        margin-top: 1.2em
     }
 
     .bubbles {
@@ -154,8 +154,8 @@ a:link {
     }
 
     .nav-bubble {
-        width: 8.3em;
-        height: 8.3em;
+        width: 8.5em;
+        height: 8.5em;
         border-radius: 50%;
         display: flex;
         justify-content: center;

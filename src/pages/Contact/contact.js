@@ -13,9 +13,7 @@ const Contact = () => {
                     <h1>Contact</h1>
                 </div>
                 <div className="contact-p">
-                    <hr />
                     If you have any questions or would like to reach me, please don't hesitate to contact me and I will get back with you as soon as possible.  Thanks for checking out my website!
-                    <hr />
                 </div>
                 <div className="icon-container">
                     <a href="https://github.com/Dabbyd123" className="icon" >
