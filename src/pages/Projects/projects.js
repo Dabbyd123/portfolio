@@ -30,13 +30,6 @@ const Projects = () => {
                 <div className="h1-container project-header">
                     <h1>Projects</h1>
                 </div>
-                <div className="p">
-                    <hr />
-                    Over the past couple of years I have learned a lot, but I know I have only scratched the surface of the seemingly endless ocean of information that is out there. These are a few projects that exemplify my journey so far.
-                    My most recent project is Mars Rovers and I had a great time building it, so please make sure to check that one out!
-                <p>Just click the picture in the card to view that website.</p>
-                    <hr />
-                </div>
                 <div className="project-card mars">
                     <h2>Mars Rovers</h2>
                     <div className="thumbnail-container">
@@ -53,7 +46,7 @@ const Projects = () => {
                             <div role="button" className="project-image-todo"></div>
                         </Link>
                     </div>
-                    <p>This is my first actual project I ever did using Javascript. A simple Todo list.</p>
+                    <p>This is my first actual project I ever did using Javascript/JQuery. A simple Todo list.</p>
                 </div>
                 <div className="project-card robofriends">
                     <h2>Robofriends</h2>
