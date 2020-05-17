@@ -37,16 +37,16 @@ const Projects = () => {
                             <div className="project-image-mars"></div>
                         </Link>
                     </div>
-                    <p>This is my most recent project using React.js. I used the NASA Mars Rovers API as my data source.</p>
+                    <p>Built in React and CSS grid.</p>
                 </div>
-                <div className="project-card todo">
-                    <h2>Todo List</h2>
+                <div className="project-card covid">
+                    <h2>COVID-19 Tracker</h2>
                     <div className="thumbnail-container">
-                        <Link to="todoList" spy={false} smooth={true} offset={0} duration={700}>
-                            <div role="button" className="project-image-todo"></div>
+                        <Link to="covidTracker" spy={false} smooth={true} offset={0} duration={700}>
+                            <div role="button" className="project-image-covid"></div>
                         </Link>
                     </div>
-                    <p>This is my first actual project I ever did using Javascript/JQuery. A simple Todo list.</p>
+                    <p>Built using React and styled components. This is my most recent project.</p>
                 </div>
                 <div className="project-card robofriends">
                     <h2>Robofriends</h2>
@@ -55,7 +55,7 @@ const Projects = () => {
                             <div className="project-image-robofriends"></div>
                         </Link>
                     </div>
-                    <p>This is my first project using React.js</p>
+                    <p>Built in React.</p>
                 </div>
             </div>
 
@@ -63,8 +63,8 @@ const Projects = () => {
                 <iframe title="mars-rovers" src="https://confident-goldwasser-56f9df.netlify.com/" frameBorder="0" width="100%" height="100%">
                 </iframe>
             </section>
-            <section name="todoList">
-                <iframe title="todo-list" src="https://dabbyd123.github.io/todoList" frameBorder="0" width="100%" height="100%">
+            <section name="covidTracker">
+                <iframe title="todo-list" src="https://covid19statsusa.com" frameBorder="0" width="100%" height="100%">
                 </iframe>
             </section>
             <section name="robofriends" className="robofriends-container">

@@ -33,15 +33,17 @@ const AboutMe = () => {
                     </div>
                 </div>
 
+                <hr className='vl' />
+
                 <div name="professional" className="professional section-bg">
                     <h3>
                         <span className="dots">...</span> As a Professional
                     </h3>
                     <p className="p-text">
                         In December 2016, I graduated with a degree in psychology from Texas State University.
-                           About two months after I graduated, I started working as the admissions representative for New Braunfels Regional Rehabilitation Hospital and within one year I was promoted to the admissions coordinator.
-                           During my time here, I had the opportunity to volunteer as a co-leader of a community-based educational class for stroke survivors as well as help with an interdepartmental eductational class for our Neuro team.
-                           It has been a tremendous learning experience for me, not only as a young professional, but as a person.
+                        About two months after I graduated, I started working as the admissions representative for New Braunfels Regional Rehabilitation Hospital and within one year I was promoted to the admissions coordinator.
+                        During my time here, I had the opportunity to volunteer as a co-leader of a community-based educational class for stroke survivors as well as help with an interdepartmental eductational class for our Neuro team.
+                        It has been a tremendous learning experience for me, not only as a young professional, but as a person.
                     </p>
                     <p className="p-text">
                         My day to day tasks are mainly focused around communication between insurance, our liaisons in the field and our hospital staff.  I lead our ops meeting every morning with all the directors of each department in order to make sure that we have the staff and resources
@@ -55,9 +57,11 @@ const AboutMe = () => {
                         <Link to="developer" spy={false} smooth={true} offset={0} duration={700}>
                             As a Developer<span className="dots">...</span>
                         </Link>
-                        <Link className="topButton" spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>To Top<i className="arrow"></i></Link>
+                        <Link className="topButton" spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>Top<i className="arrow"></i></Link>
                     </div>
                 </div>
+
+                <hr className='vl' />
 
                 <div name="developer" id="developer" className="developer section-bg">
                     <h3>
@@ -98,10 +102,11 @@ const AboutMe = () => {
                         <Link to="developer" spy={false} smooth={true} offset={0} duration={700}>
                             As a Developer<span className="dots">...</span>
                         </Link>
-                        <Link spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>To Top<i className="arrow"></i></Link>
+                        <Link spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>Top<i className="arrow"></i></Link>
                     </div>
                 </div>
             </div>
+            <div className='spacer' />
         </div>
     )
 }
