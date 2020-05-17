@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import NavBar from '../../components/Toolbar/NavBar';
-import ProjectsNav from '../../components/ProjectsNav/ProjectsNav';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+// import './ProjectsNav.css';
 import './projects.css';
 
 const Projects = () => {
@@ -23,9 +24,11 @@ const Projects = () => {
 
 
     return (
-        <div className="projects">
+        <div name="top" className="projects">
             <NavBar />
-            {scrolled ? <ProjectsNav /> : null}
+            {scrolled ? <nav className="projectsNav">
+                <Link to='top' className="topScrollBtn" spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}><FontAwesomeIcon icon={faChevronUp} /></Link>
+            </nav> : null}
             <div className="projects-container">
                 <div className="h1-container project-header">
                     <h1>Projects</h1>

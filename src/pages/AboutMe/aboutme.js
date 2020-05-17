@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../../components/Toolbar/NavBar';
 import * as Scroll from 'react-scroll';
-import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import "./aboutme.css";
 import me from "../../images/me.png";
 
