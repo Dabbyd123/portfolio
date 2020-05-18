@@ -57,4 +57,13 @@ div.logo {
         grid-column: 3/5;
         grid-row: 1;
     }
+
+    .menu-btn {
+        margin-left: 2em;
+
+    }
+
+    div.logo {
+        margin-right: 2em;
+    }
 }
