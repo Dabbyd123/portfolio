@@ -16,7 +16,7 @@ body {
     height: 100%;
     width: 100vw;
     text-align: center;
-    overflow-y: hidden;
+    overflow-y: touch;
     overflow-x: hidden
 }
 
