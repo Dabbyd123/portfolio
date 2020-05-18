@@ -3,7 +3,6 @@ import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } f
 import NavBar from '../../components/Toolbar/NavBar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
-// import './ProjectsNav.css';
 import './projects.css';
 
 const Projects = () => {
@@ -27,7 +26,7 @@ const Projects = () => {
         <div name="top" className="projects">
             <NavBar />
             {scrolled ? <nav className="projectsNav">
-                <Link to='top' className="topScrollBtn" spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}><FontAwesomeIcon icon={faChevronUp} /></Link>
+                <Link to='top' className="topScrollBtn" spy={false} smooth={true} offset={0} duration={900}><FontAwesomeIcon icon={faChevronUp} /></Link>
             </nav> : null}
             <div className="projects-container">
                 <div className="h1-container project-header">

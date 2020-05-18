@@ -1,14 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBar from '../../components/Toolbar/NavBar';
 import * as Scroll from 'react-scroll';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import "./aboutme.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import me from "../../images/me.png";
 
 const AboutMe = () => {
+    const [scrolled, setScroll] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            const isTop = window.scrollY < 100;
+            if (isTop !== true) {
+                setScroll(true)
+            } else {
+                setScroll(false)
+            }
+        })
+        return window.removeEventListener('scroll', null)
+    })
+
     return (
-        <div className="about-me">
+        <div name="top" className="about-me">
             <NavBar />
+            {scrolled ? <nav className="toTopNav">
+                <Link to='top' spy={false} smooth={true} offset={0} duration={900}><FontAwesomeIcon icon={faChevronUp} /></Link>
+            </nav> : null}
             <div className="about-me-container">
                 <div className="h1-container about-header">
                     <h1>About Me</h1>
@@ -57,7 +76,6 @@ const AboutMe = () => {
                         <Link to="developer" spy={false} smooth={true} offset={0} duration={700}>
                             As a Developer<span className="dots">...</span>
                         </Link>
-                        <Link className="topButton" spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>Top<i className="arrow"></i></Link>
                     </div>
                 </div>
 
@@ -102,7 +120,6 @@ const AboutMe = () => {
                         <Link to="developer" spy={false} smooth={true} offset={0} duration={700}>
                             As a Developer<span className="dots">...</span>
                         </Link>
-                        <Link spy={false} smooth={true} offset={0} duration={700} onClick={scroll.scrollToTop}>Top<i className="arrow"></i></Link>
                     </div>
                 </div>
             </div>

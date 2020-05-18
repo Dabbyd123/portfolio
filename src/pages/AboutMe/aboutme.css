@@ -16,7 +16,7 @@
 .about-me-container {
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
     height: 100%;
     margin: 0 auto;
 }
@@ -49,6 +49,7 @@
 
 div.about-me-container>.section-bg {
     height: fit-content;
+    border-radius: 10%
 }
 
 .section-bg {
@@ -106,6 +107,17 @@ div.about-me-container>.section-bg {
     font-size: 2em;
     color: var(--main-blue-color);
     font-family: 'Exo', sans-serif;
+}
+
+#root>div>div>div.about-me-container>nav>a>svg {
+    width: 2.1em;
+    height: 2.1em;
+    position: fixed;
+    background-color: var(--light-blue-color);
+    z-index: 99;
+    margin-top: 80vh;
+    margin-left: 92vw;
+    border-radius: 10%
 }
 
 img {
