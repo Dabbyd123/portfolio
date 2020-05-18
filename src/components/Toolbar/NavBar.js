@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import NavMenu from '../SideNav/NavMenu';
 import Backdrop from '../Backdrop/Backdrop';
@@ -11,7 +12,7 @@ const NavBar = () => {
 
     return (
         <div className="nav">
-            <div className="logo"><img src="/Logo.png" className="logo" alt="Logo" /></div>
+            <div className="logo"><Link to="/"><img src="/Logo.png" className="logo" alt="Logo" /></Link></div>
             <div className="navbar">
                 <FaBars onClick={() => { setState({ clicked: !state.clicked }) }} className="menu-btn" type="button" color="#FFFFFF" />
             </div>
