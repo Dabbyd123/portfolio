@@ -11,7 +11,7 @@ const NavBar = () => {
 
     return (
         <div className="nav">
-            <div className="logo">David Brocker</div>
+            <div className="logo"><img src="/Logo.png" className="logo" alt="Logo" /></div>
             <div className="navbar">
                 <FaBars onClick={() => { setState({ clicked: !state.clicked }) }} className="menu-btn" type="button" color="#FFFFFF" />
             </div>
