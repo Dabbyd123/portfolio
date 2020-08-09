@@ -5,7 +5,7 @@
     left: 0;
     background-color: var(--dark-bg-color);
     display: grid;
-    height: 3.5em;
+    height: 4em;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
@@ -13,14 +13,14 @@
 .navbar {
     grid-column: 1/4;
     grid-row: 1;
-    max-height: 3.5em;
+    max-height: 4em;
     align-items: center;
 }
 
 .menu-btn {
     border-radius: 20%;
-    margin-left: 3em;
-    margin-top: .9em;
+    margin-left: 5em;
+    margin-top: 1em;
     align-self: center;
 }
 
@@ -35,19 +35,19 @@
 }
 
 svg.menu-btn {
-    height: 1.5em;
-    width: 1.5em;
+    height: 2em;
+    width: 2em;
 }
 
 div.logo {
     grid-column: 4;
     justify-self: center;
     align-self: center;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: var(--main-blue-color);
     justify-self: end;
     align-self: center;
-    margin-right: 3em;
+    margin-right: 5em;
     font-weight: bold;
     font-family: 'Exo', sans-serif;
 }

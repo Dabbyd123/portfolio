@@ -5,8 +5,8 @@
     height: 100%;
     width: 100vw;
     background-image:
-        linear-gradient(rgba(33, 33, 33, .85),
-            rgba(33, 33, 33, .85)),
+        linear-gradient(rgba(33, 33, 33, .95),
+            rgba(33, 33, 33, .95)),
         url('../../images/city-ConvertImage.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
 .about-me-container {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 95vw;
     height: 100%;
     margin: 0 auto;
 }
@@ -41,6 +41,10 @@
     width: fit-content
 }
 
+.h1-container.about-header>h1 {
+    font-size: 7em
+}
+
 .h1-container.about-header {
     display: flex;
     flex-direction: row;
@@ -52,12 +56,11 @@ div.about-me-container>.section-bg {
     border-radius: 10%
 }
 
-.section-bg {
+div.section-bg {
     line-height: 3em;
     color: #FFFFFF;
-    background-color: var(--light-bg-color);
     border: 1px solid var(--main-blue-color);
-    padding: 1.5em;
+    padding: 3em;
     padding-bottom: 3em;
     height: 100vh;
     padding-right: 1em;
@@ -67,9 +70,9 @@ div.about-me-container>.section-bg {
     height: 10em;
 }
 
-.vl {
+hr.vl {
     transform: 90deg;
-    height: 10em;
+    height: 15em;
     border-color: var(--main-blue-color)
 }
 
@@ -132,13 +135,13 @@ img {
 
 div>h3 {
     color: var(--main-blue-color);
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'Exo', sans-serif;
 }
 
-.p-text {
+p.p-text {
     color: #FFFFFF;
-    font-size: 1.2em
+    font-size: 1.7em
 }
 
 .dots {

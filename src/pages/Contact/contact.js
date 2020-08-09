@@ -13,9 +13,8 @@ const Contact = () => {
                     <h1>Contact</h1>
                 </div>
                 <div className="contact-p">
-                    If you have any questions or would like to reach me, please don't hesitate to contact me and I will get back with you as soon as possible.  Thanks for checking out my website!
-                </div>
-                <div className="icon-container">
+                    <p>If you have any questions or would like to reach me, please don't hesitate to contact me and I will get back with you as soon as possible.  Thanks for checking out my website!</p>
+                    <div className="icon-container">
                     <a href="https://github.com/Dabbyd123" className="icon" >
                         <FaGithub className="icon" id="github" />
                         Github
@@ -28,6 +27,7 @@ const Contact = () => {
                         <FaPhoneSquare className="icon" id="phone" />
                         Phone: <span className="phoneNum">(210) 362-4572</span>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

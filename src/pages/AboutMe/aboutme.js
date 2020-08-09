@@ -35,8 +35,7 @@ const AboutMe = () => {
                 <div className="section-bg intro">
                     <img src={me} alt="" />
                     <p className="p-text"><span className="intro-span">Hi! my name is David Brocker </span> and I am a web developer from New Braunfels, Tx.
-                            Apart from working full time, taking care of my dog Winnie (more of
-                            a small horse now) and hanging out with my fiancée Lauren, most of my free time is spent coding.
+                            I live with my dog/horse named Winnie and my wife Lauren. If I'm not working, you'll generally find me either coding, listening to all sorts of podcasts, or watching soccer. 
                             I have always been fascinated with the progression of
                             technology and it's affect on our
                             everyday lives, but I didn't realize that I could actually learn to code on my own until about two years ago when my codiing journey began.
